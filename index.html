@@ -3,9 +3,80 @@
 <head>
 <meta charset="utf-8">
 <title>Altiora Global Health Solutions</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.5/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="icon" href="favicon.png">
+<style>
+:root{--primary:#283C7A;--accent:#00C2C7}
+.hero{background:var(--primary);color:#fff}
+.button.is-accent{background:var(--accent);border:none}
+</style>
 </head>
 <body>
-<h1>Higher care, higher horizons.</h1>
-<p>Site under construction — stay tuned!</p>
+
+<!-- HERO -->
+<section class="hero is-fullheight">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <img src="logo.png" style="max-width:180px">
+      <h1 class="title is-1 mt-4">Higher care, higher horizons.</h1>
+      <h2 class="subtitle is-4">Aeromedical audits · Global health consulting</h2>
+      <a href="https://calendly.com/altiora/30min" class="button is-accent is-medium mt-4">Book a 30-min call</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section">
+<div class="container">
+  <h2 class="title has-text-centered mb-6">Our Services</h2>
+  <div class="columns">
+    <div class="column has-text-centered">
+      <span class="icon is-large"><i class="fa-solid fa-plane-medical fa-2x"></i></span>
+      <h3 class="title is-5 mt-2">Aeromedical Audits</h3>
+      <p>SOP design, EURAMI / ICAO compliance, cost containment.</p>
+    </div>
+    <div class="column has-text-centered">
+      <span class="icon is-large"><i class="fa-solid fa-hospital-user fa-2x"></i></span>
+      <h3 class="title is-5 mt-2">Global Health Due-Diligence</h3>
+      <p>On-site quality reviews in 80+ countries.</p>
+    </div>
+    <div class="column has-text-centered">
+      <span class="icon is-large"><i class="fa-solid fa-people-carry-box fa-2x"></i></span>
+      <h3 class="title is-5 mt-2">Medical Tourism Programs</h3>
+      <p>IVF, CAR-T & complex surgery coordination AU/NZ → TH/CN.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- LEAD MAGNET -->
+<section class="section has-background-light" id="contact">
+<div class="container">
+  <h2 class="title has-text-centered mb-6">Get the 12 KPI Checklist</h2>
+  <form action="https://formspree.io/f/XXXXXXXX" method="POST" class="box" style="max-width:600px;margin:auto">
+    <div class="field">
+      <label class="label">Work email</label>
+      <div class="control">
+        <input class="input" type="email" name="_replyto" placeholder="you@company.com" required>
+      </div>
+    </div>
+    <div class="field">
+      <label class="label">Message (optional)</label>
+      <textarea class="textarea" name="message" rows="3"></textarea>
+    </div>
+    <button class="button is-accent is-fullwidth">Send & Download</button>
+  </form>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>© 2025 Altiora Global Health Solutions · RCS Paris 987 654 321 · <a href="mailto:ludovicgros@altiora-ghs.com">contact</a></p>
+  </div>
+</footer>
+
 </body>
 </html>
