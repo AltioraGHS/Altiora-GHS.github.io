@@ -1,0 +1,17 @@
+{
+  "name": "Altiora Global Health Solutions",
+  "short_name": "Altiora",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#011B47",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
